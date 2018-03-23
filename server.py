@@ -11,6 +11,7 @@ def screate():
         host = ''
         port = 9898
         s = socket.socket()
+        print("[+] Socket creation successful")
     except socket.error as msg:
         print("[-] Socket creation error " + str(msg))
 
