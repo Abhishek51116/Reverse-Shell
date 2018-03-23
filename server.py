@@ -46,3 +46,10 @@ def send_commands(conn):
             conn.send(str.encode(cmd))
             cresponse = str(conn.recv(1024), "utf-8")
             print(cresponse, end="")
+
+def main():
+    screate()
+    sbind()
+    saccept()
+
+main()
