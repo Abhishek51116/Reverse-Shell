@@ -2,7 +2,7 @@ import os
 import socket
 import subprocess
 
-host = '192.168.43.246'
+host = '0.0.0.0'
 port = 9898
 s = socket.socket()
 
